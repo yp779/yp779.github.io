@@ -543,45 +543,24 @@
 
 **[Realization]**
 ● The counting principle is based on **Hough Transform**.
-● Combined with **Qt** and **OpenCV**, this software was designed in MacOS environment.
+● Combined with **Qt** and **OpenCV**, this software was designed in MacOS environment.-->
 
 
 
----
+<hr>
+<img width="300" src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143847225-686730765.jpg">
+<br> <br>
+<img width="400" src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143906351-976697769.png">
+<br> <br>
+<img width="400" src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143918539-551956231.png">
+<br> <br>
+<img width="400" src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143925131-1434892456.png">
 
-<img width=300 src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143847225-686730765.jpg" >
-<br> <br/>
-<img width=400 src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143906351-976697769.png" >
-<br> <br/>
-<img width=400 src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143918539-551956231.png" >
-<br> <br/>
-<img width=400 src="http://img2020.cnblogs.com/blog/1976340/202101/1976340-20210116143925131-1434892456.png" >
-
-# Pick-up Sticks Fetching Strategy Generation System (2020)  
-**[Background]**  
-● A research project of internship
-
-**[Function]**  
-● In this study, we proposed a method to solve the problem mentioned below with the lowest relative cost.  A common scenario in the actual industrial production environment (assembly line or construction site) is as follows: while confronting several workpieces in a crowd, it is general for humans to generate a **fetching strategy** unconsciously which signifies people know the placing ordering of workpieces. But it is difficult for robots to do so and this problem referred to as **crowd occlusion**.
-
-● We wish robots are skilled to achieve the following purposes:
-**①** To remove the objects above for a better global view or better force bearing points for grasping other objects underneath
-**②** To guarantee the safety of objects by preventing collisions and falls during executing grasp actions
-**③** To make the cluttering stack stable as much as possible during grasping so that replanning the strategy is unnecessary
-
-● We argue that there are three typical characters make the metal tube a kind of workpieces difficult to detect:
-**①** Poorly textured <br/>**→**  has insufficient local features to apply conventional feature matching methods
-**②** A totally centrally symmetrical object<br/>**→** scarcely possible to apply general PnP algorithms to get its 6D pose
-**③** Reflection and highlight on surface<br/>**→** difficult to detect its contour
-
-**[Realization]**  
-● Firstly, we trained the **Mask R-CNN** with a dataset that contains hundreds of manual labeled images of workpieces of different specifications standards.
-● We utilized this neural network to get the precise counting of workpieces and get each precise location respectively from each image shot by a **monocular RGB camera**.
-● Then designed a compounding method**(OpenCV+Halcon)** to extract occlusion regions, which will later be used for giving the stacking position ordering of workpieces with a local sort method. As the ordering relationships are given, we can generate a fetching strategy through the global sort algorithm**(Topological Sort Algorithm)**.
-● Finally, we made a **GUI(Qt)** for our system. And demonstrated our method on **ABB YuMi robot** and complete a series of tasks.    -->
-
-
-
+<h1 id="Pick-up-Sticks-Fetching-Strategy-Generation-System-2020"><a href="#Pick-up-Sticks-Fetching-Strategy-Generation-System-2020" class="headerlink" title="Pick-up Sticks Fetching Strategy Generation System (2020)"></a>Pick-up Sticks Fetching Strategy Generation System (2020)</h1><p><strong>[Background]</strong><br>● A research project of internship</p>
+<p><strong>[Function]</strong><br>● In this study, we proposed a method to solve the problem mentioned below with the lowest relative cost.  A common scenario in the actual industrial production environment (assembly line or construction site) is as follows: while confronting several workpieces in a crowd, it is general for humans to generate a <strong>fetching strategy</strong> unconsciously which signifies people know the placing ordering of workpieces. But it is difficult for robots to do so and this problem referred to as <strong>crowd occlusion</strong>.</p>
+<p>● We wish robots are skilled to achieve the following purposes:<br><strong>①</strong> To remove the objects above for a better global view or better force bearing points for grasping other objects underneath<br><strong>②</strong> To guarantee the safety of objects by preventing collisions and falls during executing grasp actions<br><strong>③</strong> To make the cluttering stack stable as much as possible during grasping so that replanning the strategy is unnecessary</p>
+<p>● We argue that there are three typical characters make the metal tube a kind of workpieces difficult to detect:<br><strong>①</strong> Poorly textured <br><strong>→</strong>  has insufficient local features to apply conventional feature matching methods<br><strong>②</strong> A totally centrally symmetrical object<br><strong>→</strong> scarcely possible to apply general PnP algorithms to get its 6D pose<br><strong>③</strong> Reflection and highlight on surface<br><strong>→</strong> difficult to detect its contour</p>
+<p><strong>[Realization]</strong><br>● Firstly, we trained the <strong>Mask R-CNN</strong> with a dataset that contains hundreds of manual labeled images of workpieces of different specifications standards.<br>● We utilized this neural network to get the precise counting of workpieces and get each precise location respectively from each image shot by a <strong>monocular RGB camera</strong>.<br>● Then designed a compounding method<strong>(OpenCV+Halcon)</strong> to extract occlusion regions, which will later be used for giving the stacking position ordering of workpieces with a local sort method. As the ordering relationships are given, we can generate a fetching strategy through the global sort algorithm<strong>(Topological Sort Algorithm)</strong>.<br>● Finally, we made a <strong>GUI(Qt)</strong> for our system. And demonstrated our method on <strong>ABB YuMi robot</strong> and complete a series of tasks.    </p>
 <hr>
 <img width="400" src="http://img2020.cnblogs.com/blog/1976340/202107/1976340-20210726234328714-1335120090.jpg"> 
 <br> <br>
@@ -620,7 +599,14 @@
 
 
 
-<h1 id="Human-robot-Collaborative-Teaming（2022）"><a href="#Human-robot-Collaborative-Teaming（2022）" class="headerlink" title="Human-robot Collaborative Teaming（2022）"></a>Human-robot Collaborative Teaming（2022）</h1><p><strong>content to be supplemented …</strong>  </p>
+<h1 id="Human-robot-Collaborative-Teaming（2022）"><a href="#Human-robot-Collaborative-Teaming（2022）" class="headerlink" title="Human-robot Collaborative Teaming（2022）"></a>Human-robot Collaborative Teaming（2022）</h1><p><strong>[Background]</strong><br>● We presented a framework that combined AR(HoloLens) and robot(UR5) to boost the efficiency in waste manual sorting.<br>● This work has been submitted to [Automation in Construction]</p>
+<p><strong>[Function]</strong><br>● Contours of waste objects on the table or conveyor belt can be found with a depth camera(Realsense D435i). Then, the operator can choose the waste object to be classified by finger with the assistance of HoloLens.<br>● Classification of some common waste objects can be identified through one-stage object detection. The wrong classification got by algorithms can be revised by the operator through HoloLens. Here we integrated human-robot collaboration and interaction functions.</p>
+<hr>
+<img width="400" src="http://img2023.cnblogs.com/blog/1976340/202303/1976340-20230302191756916-1496799941.png"> 
+
+
+
+<h1 id="Robot-Entity-Built-in-BIM（2023）"><a href="#Robot-Entity-Built-in-BIM（2023）" class="headerlink" title="Robot Entity Built in BIM（2023）"></a>Robot Entity Built in BIM（2023）</h1><p>** content to be supplemented … **<br>&lt;–<strong>[Background]</strong><br>● We transfer urdf, the standard specification of robotic to ifc, the standard specification of construction –&gt;</p>
 
       
 
