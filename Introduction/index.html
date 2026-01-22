@@ -16,7 +16,7 @@
 <meta property="og:description" content="Greetings To Visitor       &#8195;Hey ! Thank you for stopping by ! 😉😉  &#8195;I am currently a Ph.D. student at the University of Hong Kong (HKU), Department of Computer Science. 🧐🧐 I am fortu">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-01-22T01:37:44.582Z">
+<meta property="article:modified_time" content="2026-01-22T01:41:17.500Z">
 <meta property="article:author" content="Yipeng PAN">
 <meta name="twitter:card" content="summary">
   
@@ -179,7 +179,31 @@
       </header>
     
 	
-	     
+	
+  <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+  <span class="btn-bg"></span>
+  <span class="btn-text"> 📌 </span>
+  </p>
+  <div id="toc-article" class="toc-article">
+      <span id="toc-close" class="toc-close" title="Hide" onclick="showBtn();">×</span>
+      <strong class="toc-title">Article Directory</strong>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Prototypes"><span class="toc-number">1.</span> <span class="toc-text">Prototypes</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Skills"><span class="toc-number">2.</span> <span class="toc-text">Skills</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Hobbies"><span class="toc-number">3.</span> <span class="toc-text">Hobbies</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Curriculum-Vitae"><span class="toc-number">4.</span> <span class="toc-text">Curriculum Vitae</span></a></li></ol>
+ </div>
+ <script type="text/javascript">
+  function showToc(){
+      var toc_article = document.getElementById("toc-article");
+      var show_toc_btn = document.getElementById("show-toc-btn");
+      toc_article.setAttribute("style","display:block");
+      show_toc_btn.setAttribute("style","display:none");
+      };
+  function showBtn(){
+      var toc_article = document.getElementById("toc-article");
+      var show_toc_btn = document.getElementById("show-toc-btn");
+      toc_article.setAttribute("style","display:none");
+      show_toc_btn.setAttribute("style","display:block");
+      };
+ </script>
+     
 	
     <div class="article-entry" itemprop="articleBody">
       
